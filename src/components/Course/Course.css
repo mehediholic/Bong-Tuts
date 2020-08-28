@@ -1,0 +1,23 @@
+.course{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.courseName{
+    color: lightcoral;
+    font-weight: 300;
+}
+
+.des-color{
+    color: black;
+}
+
+.course-meta{
+    color: goldenrod;
+    font-weight: bold;
+}
+.course img{
+    width: 300px;
+    height: 230px;
+}
