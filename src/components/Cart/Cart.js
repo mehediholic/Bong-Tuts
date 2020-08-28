@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -14,6 +16,7 @@ const Cart = (props) => {
             <hr/>
             <p>Enrolled Courses: {cart.length} </p>
             <p>Total Course Price: {total}</p>
+            <button className="btn btn-primary">Checkout...</button>
         </div>
     );
 };

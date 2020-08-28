@@ -21,7 +21,7 @@ const Courses = () => {
         
         <div className="courses-container">
             <div className="course-container">
-            <h1 className="lead alert alert-primary">Find Your favourite Course Here</h1>
+            <h1 className="lead alert alert-primary">Find Your favorite Course Here</h1>
                     {
                         courses.map(crs => <Course
                         handleAddCourse = {handleAddCourse}
